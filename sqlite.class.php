@@ -1,4 +1,5 @@
 <?php
+include('table.class.php');
 /**
  * Handles SQLite
  *
@@ -11,9 +12,12 @@
  * @Version    v1.0.0
  */
 class SQLite extends PDO {
+       
+    
 	private $sql;
 	
 	private $bind;
+
 	/**
 	*Class Construct
 	*
